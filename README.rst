@@ -8,11 +8,11 @@ tracking user activity.
 
 Hooks use `zope.event`_'s event mechanism using the
 plone.validatehook.interfaces.IPostValidationEvent. This is based on
-the standard ObjectEvent form `zope.component`_. 
+the standard ObjectEvent form `zope.component`_.
 
 The IPostValidationEvent event has two attributes: ``user`` which is the
 currently authenticated user object and ``request``, which is the current
-request object. 
+request object.
 
   *Keep in mind that even unauthenticated requests have a user
   object. If you only want to deal with 'normal' users make sure

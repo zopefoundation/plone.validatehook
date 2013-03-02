@@ -15,10 +15,8 @@ Changelog
 * Move to svn.zope.org and relicense under ZPL.
   [wichert]
 
-
 1.0rc1 - July 15, 2008
 ----------------------
 
 * Initial release
   [wichert]
-
